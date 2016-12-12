@@ -173,6 +173,9 @@ void stripControl(int row, int column, int color)
   }
 }
 
+/**
+ * Parses color input from BlueFruit
+ */
 void parseColor()
 {
   Serial.write("Color Selected: \n");
